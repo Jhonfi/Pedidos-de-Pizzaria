@@ -1,20 +1,20 @@
-# ATV04: App de Pedidos de Lanche (Continuando a Lanche Fácil!) 🍔
+# ATV05: App de Pedidos de Pizza (Com Cálculo e Tudo!) 🍕
 
-Esse projeto é uma evolução do ATV03. Agora, além de cadastrar, a gente faz o pedido do lanche! Também tem 3 telas que conversam.
+Esse foi o projeto mais completo! É um app pra pedir pizza com 3 telas e até cálculo do preço.
 
 **Como funciona?**
 
-- **Tela 1 (Início):** Igual à anterior, mostra a marca e tem um botão pra ir pros pedidos.
-- **Tela 2 (Pedido):** Aqui a pessoa digita o nome dela E escolhe o lanche (tipo hambúrguer, misto, etc.) usando umas opções de marcar. Depois, clica no botão pra ver o resumo. Essa tela manda o nome E o lanche escolhido pra próxima tela.
-- **Tela 3 (Resumo):** Mostra na tela o nome da pessoa e qual lanche ela pediu. Tem uma imagem pra enfeitar e um botão pra voltar pro começo e fazer outro pedido.
+- **Tela 1 (Sabores):** Você escolhe quantos sabores de pizza quiser marcando as opções (tipo Calabresa, Marguerita, etc.). Depois clica no botão pra ir pra próxima tela. Essa tela manda quais sabores foram escolhidos E quantas pizzas (a quantidade de sabores que você marcou).
+- **Tela 2 (Tamanho e Pagamento):** Aqui você vê os sabores que escolheu na tela anterior. Aí, escolhe o tamanho da pizza (Pequena, Média ou Grande) e como vai pagar (Dinheiro ou Cartão). Quando clica no botão, ele FAZ A CONTA: pega o preço do tamanho que você escolheu e multiplica pela quantidade de pizzas da tela anterior. Depois, manda tudo (sabores, tamanho, pagamento e o preço final) pra última tela.
+- **Tela 3 (Resumo):** Mostra um resumo completão! Fala quantas pizzas, quais sabores, o tamanho, o jeito que vai pagar e o preço total calculadinho. Tem um botão pra voltar pro começo e fazer um novo pedido.
 
 **O que aprendi/usei?**
 
-Continuei usando tudo do ATV03 e aprendi a pegar informação de "bolinhas de marcar" (`RadioGroup`/`RadioButton`) e a mandar mais de uma informação (o nome E o lanche) de uma tela pra outra. Tive que ajustar uns layouts pra tudo aparecer certinho na tela (usei um "ScrollView" pra isso).
+Usei tudo que aprendi antes e fui além! Mexi com "caixinhas de marcar" que dá pra escolher várias (`CheckBox`), fiz lógica pra fazer a conta do preço baseado em duas coisas (quantidade E tamanho), aprendi a mandar VÁRIAS informações de uma tela pra outra (lista de sabores, número, tamanho, preço). Tive que quebrar a cabeça com uns erros mais chatinhos e aprender a fazer os layouts rolarem quando tem muita coisa.
 
 **Design:**
 
-Mantive o visual inspirado no Spotify!
+Ficou com o visual Spotify que curti nos outros apps!
 
 ---
 
@@ -22,7 +22,7 @@ Mantive o visual inspirado no Spotify!
 
 1.  Abre o Android Studio.
 2.  Vai em "File" > "Open...".
-3.  Procura a pasta "atv04" e seleciona.
+3.  Procura a pasta "atv05" e seleciona.
 4.  Espera o Android Studio organizar tudo.
 5.  Conecta um celular ou abre um emulador.
 6.  Clica no "Play" verde pra rodar.
